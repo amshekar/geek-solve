@@ -17,7 +17,7 @@ https://www.geeksforgeeks.org/generate-a-random-permutation-of-1-to-n/?ref=gcse
 
 6	Count the number of unique channel/slot combinations that have status code > 200. 
 
-  Log format: <timestamp>,<channel-num>,<slot-num>,<status-code>,<description>; 
+  Log format: \<timestamp>,\<channel-num>,\<slot-num>,\<status-code>,\<description>\; #
  
  Example input:
  
