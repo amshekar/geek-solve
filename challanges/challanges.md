@@ -11,16 +11,30 @@
 
 •	Write a function generateRandomNumbers to generate all the integer values from 1...n  exactly once, where n is the input.
 
-•	Count the number of unique channel/slot combinations that have status code > 200. Log format: <timestamp>,<channel-num>,<slot-num>,<status-code>,<description>; Example input:
+•	Count the number of unique channel/slot combinations that have status code > 200. 
+
+  Log format: <timestamp>,<channel-num>,<slot-num>,<status-code>,<description>; 
+ 
+ Example input:
+ 
 •	12:00 1 1 200 Success
+ 
 •	12:00 1 2 500 Error
+ 
 •	12:00 1 3 200 Success
+ 
 •	12:00 1 2 200 Success
+ 
 •	12:00 1 5 200 Success
+ 
 •	12:01 2 1 500 Error
+ 
 •	12:01 1 2 500 Error
+ 
 •	12:01 1 5 500 Error
+ 
 •	Expected Output (<channel-num> <slot-num>):
+ 
 •	1 2, 1 5 , 2 1
   
 # set 2:
@@ -35,3 +49,6 @@
 •	Search a substring in a string and return its index for the first occurrence.
   
 •	Input: array of [1, 3, 11, 11, 1, 9, 3], Write a function that returns the element that appears only once.
+ 
+ 
+ Get ready to answer why your solution is optimal or how you can optimize it further. Discuss the algorithm complexity - n, log(n), n2, etc.
