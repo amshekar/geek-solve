@@ -42,13 +42,22 @@ https://www.geeksforgeeks.org/generate-a-random-permutation-of-1-to-n/?ref=gcse
 •	1 2, 1 5 , 2 1
   
 # set 2:
+ 
 7	Find and replace a substring within a given string. Something like this: https://www.javatpoint.com/java-string-replace
+ 
+ 
+ https://www.geeksforgeeks.org/c-sharp-replace-method/
+ 
   
 8	You have an array of numbers of random order. Print out the numbers in an ascending order. Or print out the numbers but remove duplicates.
+ 
+ 
   
 9	You have an array of strings. Find and print all palindrome word from the array (palindrome are the words that read the same backward and forward (e.g. anna, hanah, level, etc.)
+ https://www.geeksforgeeks.org/find-all-palindrome-strings-in-given-array-of-strings/?ref=gcse
   
 10 	Write a code in your preferred programming language to read the input string and define if it is a palindrome word or not (a palindrome word is that reads the same backward as forward, e.g., madam, rotor, etc.)
+ https://www.geeksforgeeks.org/find-all-palindrome-strings-in-given-array-of-strings/?ref=gcse
   
 11	Search a substring in a string and return its index for the first occurrence.
   
@@ -56,3 +65,5 @@ https://www.geeksforgeeks.org/generate-a-random-permutation-of-1-to-n/?ref=gcse
  
  
  Get ready to answer why your solution is optimal or how you can optimize it further. Discuss the algorithm complexity - n, log(n), n2, etc.
+ 
+ 
