@@ -66,4 +66,4 @@ https://www.geeksforgeeks.org/generate-a-random-permutation-of-1-to-n/?ref=gcse
  
  Get ready to answer why your solution is optimal or how you can optimize it further. Discuss the algorithm complexity - n, log(n), n2, etc.
  
- 
+ Ref link: https://ankitsharmablogs.com/csharp-coding-questions-for-technical-interviews/
