@@ -6,7 +6,7 @@ using System.Linq;
 namespace RandomSequence
 {
     // You have an array of numbers of random order. Print out the numbers in an ascending order. Or print out the numbers but remove duplicates.
-    public class SortArray
+    public class SortArray8
     {
 
 

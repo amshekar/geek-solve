@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RandomSequence
 {
-    public class SubArraySumMax
+    public class SubArraySumMax2
     {
         static int maxSubArraySum(int[] a)
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RandomSequence
 {
-    public class PalindromString
+    public class PalindromString10
     {
         public static void Main(string[] args)
         {

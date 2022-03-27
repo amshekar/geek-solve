@@ -5,21 +5,23 @@ using System.Text;
 
 namespace RandomSequence
 {
-    public class PalindromArrayString
+    public class PalindromArrayString9
     {
 
         public static void Main(String[] args)
         {
             string[] array = { "anna", "hanah", "level" ,"shekar"};
+            StringBuilder sb = new StringBuilder();
 
             ArrayList palindRomelist = PalindromStrings(array);
 
-            foreach (var item in palindRomelist)
+            foreach (string item in palindRomelist)
             {
-                Console.WriteLine("Palindrom Strings"+item);
+               sb.Append(item+',');
 
             }
-            
+            Console.WriteLine("Palindrom Strings : {" + sb+"}");
+
         }
 
         private static ArrayList PalindromStrings(string[] array)

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace RandomSequence
 {
-    public class RandomNumberSequence
+    public class RandomNumberSequence5
     {
 
 		// Function to return the next random number

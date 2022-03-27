@@ -11,7 +11,7 @@ namespace RandomSequence
 
 
 
-    public class SubArraySumZero
+    public class SubArraySumZero1
     {
         // Function to print all subarrays
         // in the array which has sum 0

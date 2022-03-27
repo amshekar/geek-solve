@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RandomSequence
 {
-    public class SlidingWindowMax
+    public class SlidingWindowMax3
     {
         // Method to find the maximum for
         // each and every contiguous subarray

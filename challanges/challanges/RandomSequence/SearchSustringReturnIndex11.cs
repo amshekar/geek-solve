@@ -4,7 +4,7 @@ using System.Text;
 
 namespace RandomSequence
 {
-    public class SearchSustringReturnIndex
+    public class SearchSustringReturnIndex11
     {
 
         public static void Main(string[] args)
