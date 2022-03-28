@@ -1,11 +1,15 @@
 # geek-solve
  # set 1
 
-1	Given the array, find the longest sub-array in that array for which the sum of the values is equal to zero. e.g. in the array of [-4, -20, 2, 2, 8, 3, -5, 10, -300, 6, 8] the sub-array will be [-20, 2, 2, 8, 3, -5, 10]. Notice that you cannot chance the order of the values in the original arrays.
+1	Given the array, find the longest sub-array in that array for which the sum of the values is equal to zero. e.g. in the array of [-4, -20, 2, 2, 8, 3, -5, 10, -300, 6, 8] the sub-array will be [-20, 2, 2, 8, 3, -5, 10]. Notice that you cannot chance the order of the values in the original arrays. O(n)
 
-2	Given the array, find a sub-array in that array for which the sum of the values is the maximum. e.g. in the array of [4, -20, 4, 3, 2, -5, 10, -300] the sub-array will be [4, 3, 2, -5, 10]. Notice that you cannot chance the order of the values in the original arrays.
+https://www.geeksforgeeks.org/print-all-subarrays-with-0-sum/?ref=gcse
 
-3	Given an array of integers and a window size, output the maximum value of the sliding window as the window moves over the entire array. Example: Input: [ 1,2,3,5,-5,4,6,7,3,-10,-3,8,1], Window Size = 5
+2	Given the array, find a sub-array in that array for which the sum of the values is the maximum. e.g. in the array of [4, -20, 4, 3, 2, -5, 10, -300] the sub-array will be [4, 3, 2, -5, 10]. Notice that you cannot chance the order of the values in the original arrays. O(n)
+
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/?ref=gcse
+
+3	Given an array of integers and a window size, output the maximum value of the sliding window as the window moves over the entire array. Example: Input: [ 1,2,3,5,-5,4,6,7,3,-10,-3,8,1], Window Size = 5 O(n*K)
 
 https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/?ref=lbp
 

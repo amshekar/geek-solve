@@ -13,6 +13,27 @@ namespace RandomSequence
 
     public class SubArraySumZero1
     {
+        // Driver code
+        public static void Main(String[] args)
+        {
+            //int[] arr = { -4, -20, 2, 2, 8, 3, -5, 10, -300, 6, 8 };
+            int[] arr = { 6, 3, -1, -3, 4 };
+            int n = arr.Length;
+
+            List<Pair> outt = findSubArrays(arr, n);
+
+            // if we did not find any subarray with 0 sum,
+            // then subarray does not exists
+            if (outt.Count == 0)
+                Console.WriteLine("No subarray exists");
+            else
+                 print(outt, arr);
+        }
+
+
+
+
+
         // Function to print all subarrays
         // in the array which has sum 0
         static List<Pair> findSubArrays(int[] arr, int n)
@@ -36,6 +57,7 @@ namespace RandomSequence
                 // from index 0 and ending at index i
                 if (sum == 0)
                     outt.Add(new Pair(0, i));
+
                 List<int> al = new List<int>();
 
                 // If sum already exists in the map there exists
@@ -61,31 +83,20 @@ namespace RandomSequence
         }
 
         // Utility function to print all subarrays with sum 0
-        static void print(List<Pair> outt)
+        static void print(List<Pair> outt, int[] arr)
         {
             for (int i = 0; i < outt.Count; i++)
             {
                 Pair p = outt[i];
+                
+                //var slice = arr[p.first..^p.second];
+                //Console.WriteLine(String.Join(",",slice));
                 Console.WriteLine("Subarray found from Index " +
                                    p.first + " to " + p.second);
             }
         }
 
-        // Driver code
-        public static void Main(String[] args)
-        {
-            int[] arr = { -4, -20, 2, 2, 8, 3, -5, 10, -300, 6, 8 };
-            int n = arr.Length;
 
-            List<Pair> outt = findSubArrays(arr, n);
-
-            // if we did not find any subarray with 0 sum,
-            // then subarray does not exists
-            if (outt.Count == 0)
-                Console.WriteLine("No subarray exists");
-            else
-                print(outt);
-        }
     }
     // User defined pair class
     class Pair
@@ -98,5 +109,5 @@ namespace RandomSequence
         }
     }
 
-    
+
 }

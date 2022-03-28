@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <StartupObject>RandomSequence.LogCount6</StartupObject>
+    <StartupObject>RandomSequence.SlidingWindowMax3</StartupObject>
     <ApplicationIcon />
   </PropertyGroup>
 
